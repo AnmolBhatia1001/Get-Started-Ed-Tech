@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Get Started</title>
+    <link rel="stylesheet" href="./style.css">
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
@@ -22,7 +23,10 @@
             }
           }
         }
-      </script>
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
 </head>
 <body >
 
@@ -91,7 +95,35 @@
     </header>
 
     <!-- Hero Section -->
+    <section class="flex flex-col justify-between items-center mt-12 lg:mt-6 lg:flex-row ">
+        <!-- Hero Content -->
+        <div class="w-full flex flex-col items-center lg:w-1/2 px-4 lg:px-0 lg:pl-10">
+            <!-- Heading / Tag Line -->
+            <h1 class="text-[#3f538e] text-center lg:text-left text-xl sm:text-3xl ">
+                <span class=" font-bold text-5xl sm:text-6xl">GET STARTED</span>  <br> 
+                With Us & Accelerate your Learning and Growth.
+            </h1>
 
+            <!-- Sub Heading  -->
+            <h2 class="mt-6 text-lg sm:text-xl text-grey-800 font-medium text-center lg:text-left">
+                India's #1  hybrid, millennial-focused online learning platform for establishing a business and creative career.Lead the digital age by building developing skills and habits that cultivate work-skills for the future.
+            </h2>
+
+            <!-- Pre Register -->
+            <div class="mt-10 flex bg-[#da2c43] w-[200px] justify-center items-center rounded-full">
+                <a class="text-center text-lg font-semibold text-white px-2 py-3 " href="">
+                    PRE REGISTER
+                   
+                </a>
+                <img src="./assets/right-arrow.png" class="w-6">
+            </div>
+        </div>
+
+        <!-- Hero Image -->
+        <div class="w-full flex justify-end mt-8 lg:mt-0 lg:w-1/2 ">
+            <img src="./assets/5211714-ai.png" alt="">
+        </div>
+    </section>
     
 </body>
 </html>
